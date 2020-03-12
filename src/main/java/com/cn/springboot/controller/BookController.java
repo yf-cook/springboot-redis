@@ -39,4 +39,9 @@ public class BookController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping(value = "/testredis")
+    public String testredis(){
+        return "index";
+    }
 }
