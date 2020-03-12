@@ -34,4 +34,9 @@ public class BookController {
         System.out.println(book1);
     }
 
+
+    @RequestMapping(value = "/index")
+    public String index(){
+        return "index";
+    }
 }
